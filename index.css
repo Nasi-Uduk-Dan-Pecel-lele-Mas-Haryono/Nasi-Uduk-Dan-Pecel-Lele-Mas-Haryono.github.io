@@ -29,7 +29,17 @@
 
 .section-intro {
     height: 820px;
-    background-image: url(img/petr-sevcovic-qE1jxYXiwOA-unsplash.png);
+    background-image: url(img/head.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-menu {
+    height: 820px;
+    background-image: url(img/menu.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -194,5 +204,15 @@ a.link-to-book:hover {
         font-size: 15px;
         text-align: center;
     }
+
+    .section-bottom {
+    height: 820px;
+    background-image: url(img/botton.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 }
