@@ -2,34 +2,36 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    overflow: hidden;
 }
 
 .container {
     width: 100%;
-    max-width: 1200px; /* Adjust this value for tablet and laptop sizes */
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.logo, .menu, .paragraph {
-    width: 100%;
     max-width: 100%;
-    height: auto;
-    display: block;
     margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-.paragraph {
-    padding: 20px;
-    text-align: center;
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    width: 300%; /* Adjust based on the number of images */
+    transition: transform 0.3s ease;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .bottom-container {
     width: 100%;
-    overflow: hidden;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     text-align: center;
 }
 
