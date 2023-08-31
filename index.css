@@ -28,7 +28,8 @@
 }
 
 .section-intro {
-    height: 820px;
+    height: 819px;
+    width: 2894px;
     background-image: url(img/head.png);
     background-size: cover;
     display: flex;
@@ -38,7 +39,8 @@
 }
 
 .section-menu {
-    height: 820px;
+    height: 3479px;
+    width: 2894px;
     background-image: url(img/menu.png);
     background-size: cover;
     display: flex;
@@ -206,7 +208,7 @@ a.link-to-book:hover {
     }
 
     .section-bottom {
-    height: 820px;
+    width: 2894px;
     background-image: url(img/botton.png);
     background-size: cover;
     display: flex;
